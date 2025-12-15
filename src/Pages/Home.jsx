@@ -1,4 +1,4 @@
-import Newsletter from '../components/NewsLetter'
+import Newsletter from '../components/Newsletter'
 import Testimonials from '../components/Testimonials'
 import Hero from '../components/Hero'
 import Offers from '../components/Offers'
