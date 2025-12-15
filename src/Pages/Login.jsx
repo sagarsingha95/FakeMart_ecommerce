@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import UserSignUp from '../components/UserSignUp'
+import UserSignUp from './UserSignUp';
 import UserLogin from '../components/UserLogin'
 
 
@@ -9,6 +9,7 @@ const Login = () => {
     if(!loged) return(
         <>
         <UserSignUp setLoged={setLoged}/>
+        klmk
         </>
     )
   return (

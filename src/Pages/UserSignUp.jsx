@@ -3,7 +3,7 @@ import { FiMail, FiLock, FiUser, FiMapPin } from "react-icons/fi";
 import { IoEyeOff, IoEye } from "react-icons/io5";
 import { useAddUsersMutation } from "../features/apiSlice";
 
-const UserSignup = ({ setLoged }) => {
+const UserSignUp = ({ setLoged }) => {
   const [addUser, { isLoading }] = useAddUsersMutation();
 
   const [showPass, setShowPass] = useState(false);
@@ -224,4 +224,4 @@ const UserSignup = ({ setLoged }) => {
   );
 };
 
-export default UserSignup;
+export default UserSignUp;

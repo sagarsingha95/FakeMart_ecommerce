@@ -1,4 +1,4 @@
-import React, {  useState } from 'react'
+import React, { useState } from 'react'
 import { RxHamburgerMenu } from "react-icons/rx";
 import { Outlet,NavLink, useNavigate } from 'react-router'
 import Footer from '../components/Footer'
@@ -12,6 +12,7 @@ const AppLayout = () => {
     function handleNav(){
         setShowNav(prev =>!prev)
     }
+
 
   return (
     <>
