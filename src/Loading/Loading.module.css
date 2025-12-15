@@ -1,0 +1,13 @@
+.loader{
+    height:50px;
+    width: 50px;
+    border-left: 2px solid black;
+    animation: animate 0.5s linear infinite;
+    border-radius: 50%;
+}
+
+@keyframes animate {
+    to{
+        transform: rotate(360deg);
+    }
+}
