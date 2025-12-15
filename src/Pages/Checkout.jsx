@@ -23,7 +23,6 @@ const Checkout = () => {
 
   useEffect(() => {
     if (!isLoggedIn) {
-      alert('Login first');
       navigate("/login");
     }
   }, [isLoggedIn, navigate]);
