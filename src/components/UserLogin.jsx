@@ -5,6 +5,7 @@ import { useGetUsersQuery } from "../features/apiSlice";
 import { useNavigate } from "react-router";
 import {  setCurrentUser, setCurrentUserId } from "../features/userSlice";
 import { useDispatch } from "react-redux";
+import { Link } from "react-router";
 
 
 const Login = ({setLoged}) => {
@@ -112,6 +113,7 @@ const Login = ({setLoged}) => {
             <p className="mt-1">
               Don’t have an account?{" "}
               <span className="text-blue-600 cursor-pointer" onClick={()=>setLoged(false)}>Sign Up</span>
+            <Link to='/' className="text-center text-blue-600 hover:text-blue-800 hover:underline ml-4">Back to home</Link>
             </p>
           </div>
         </form>

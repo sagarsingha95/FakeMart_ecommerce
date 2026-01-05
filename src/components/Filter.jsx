@@ -23,7 +23,7 @@ const Filters = () => {
   }
 
   return (
-    <div className="bg-gray-700 p-5  w-full shadow-md space-y-6 h-full text-white ">
+    <div className="bg-gray-700 p-5  shadow-md space-y-6 md:h-full text-white w-screen md:w-full">
       <h3 className="text-2xl font-bold">Filters</h3>
 
       {/* Price Range */}

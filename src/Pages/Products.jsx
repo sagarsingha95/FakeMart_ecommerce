@@ -17,7 +17,7 @@ const Products = () => {
   return (
     <>
       <Categories />
-      <div className="flex">
+      <div className="flex flex-col md:flex-row">
         <div className="mt-4 w-[300px]">
           <Filter />
         </div>
